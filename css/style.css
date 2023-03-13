@@ -37,15 +37,13 @@ body {
   padding-right: 15px;
 
   margin: 0 auto;
-  outline: 2px solid red;
 }
 .section {
   padding-top: 120px;
 }
 
 /*HEADER*/
-.header {
-}
+
 .header-container {
   display: flex;
   box-sizing: border-box;
@@ -146,8 +144,7 @@ body {
   background: #404bbf;
 }
 /*ABOUT*/
-.about {
-}
+
 .about-list {
   display: flex;
   gap: 24px;
@@ -174,10 +171,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  max-width: 264px;
 }
 /*DOIND*/
-.doing {
-}
+
 .doing-title {
   margin-bottom: 72px;
   font-weight: 700;
@@ -197,6 +194,7 @@ body {
   list-style: none;
 }
 .doing-item {
+  padding-bottom: 120px;
 }
 /*TEAM*/
 .team {
@@ -216,6 +214,7 @@ body {
 .team-list {
   display: flex;
   gap: 24px;
+  padding-bottom: 120px;
 }
 
 .team-item {
@@ -303,6 +302,7 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding-bottom: 120px;
 }
 .row-list {
   width: calc(100% - 48) / 3;
