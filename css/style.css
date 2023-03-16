@@ -104,7 +104,7 @@ body {
 
 /*HERO*/
 .hero {
- /* background-color: #2e2f42;
+  /* background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -146,7 +146,7 @@ body {
   padding: 16px 32px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  border-radius: 4px;
 }
 .hero-btn:is(:hover, :focus) {
   background: #404bbf;
@@ -322,7 +322,12 @@ img {
   background: #404bbf;
 }
 /*PORTFOLIO FOTO*/
-
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 .row-title {
   font-weight: 500;
   font-size: 20px;
@@ -337,15 +342,9 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
- 
-}
+
 .row-list {
-   width: calc(100% - 48) / 3;
+  width: calc(100% - 48) / 3;
 
   list-style: none;
   border: #e7e9fc;
@@ -364,7 +363,7 @@ img {
 }
 .portfolio-img {
   display: block;
- width: 100%;
+  max-width: 100%;
   height: auto;
 }
 .link {
